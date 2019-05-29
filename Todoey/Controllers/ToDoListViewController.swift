@@ -58,6 +58,7 @@ class ToDoListViewController: UITableViewController {
         saveItems()
             
         //this statement makes it so the cell doesn't not stay gray.
+        //This is a note so I can commit this to github.
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
